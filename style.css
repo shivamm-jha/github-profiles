@@ -97,5 +97,8 @@ input:focus {
 @media (max-width:800px){
     .card{
         width:80vw;
+        display: flex;
+        flex-direction: column;
     }
+    
 }
