@@ -118,6 +118,7 @@ input:focus {
         font-size: .7rem;
         margin-left: .5rem;
         margin-right: .5rem;
+        font-weight: bold;
     }
     .repos{
         font-size: .6rem;
