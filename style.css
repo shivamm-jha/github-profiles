@@ -99,6 +99,22 @@ input:focus {
         width:80vw;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    
+    .user-info h2{
+        font-size: 1rem;
+    }
+    .user-info p{
+        font-size: .9rem;
+    }
+    .user-info ul li{
+        font-size: .7rem;
+    }
+    .strong{
+        font-size: .7rem;
+    }
+    .repos{
+        font-size: .6rem;
+    }
 }
