@@ -62,6 +62,7 @@ input:focus {
 
 .user-info h2 {
     margin-top: 0;
+    text-decoration: underline;
 }
 
 .user-info ul {
@@ -98,12 +99,14 @@ input:focus {
     .card{
         width:80vw;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        /* flex-direction: column; */
+        padding-left: .3rem;
+        padding-right: .5rem;
+        flex-wrap: wrap;
     }
     .user-info h2{
         font-size: 1rem;
+        text-decoration: underline;
     }
     .user-info p{
         font-size: .9rem;
@@ -113,6 +116,8 @@ input:focus {
     }
     .strong{
         font-size: .7rem;
+        margin-left: .5rem;
+        margin-right: .5rem;
     }
     .repos{
         font-size: .6rem;
